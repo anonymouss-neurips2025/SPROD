@@ -1,0 +1,9 @@
+postprocessor:
+  name: nnguide
+  APS_mode: True
+  postprocessor_args:
+    alpha : 0.01
+    K: 100
+  postprocessor_sweep:
+    K_list: [1, 10, 20, 100]
+    alpha_list: [0.01, 0.5]
